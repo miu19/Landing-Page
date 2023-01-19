@@ -1,0 +1,117 @@
+body{background-image: url(./photos/gainztotal.png);
+    font-family: Arial, Helvetica, sans-serif;}
+
+.logo{width: 200px;
+      height: auto;}
+.beforeafter{width:500px;
+      height: auto;}
+.imagini{ text-align: center;
+    width:  150px;
+    height: 200px;
+    object-fit: cover;
+         margin: 0 auto;
+         display: block;
+         border-radius: 10px;
+         border: solid rgb(72, 1, 1);}
+
+.header{display: flex;
+    justify-content: space-between;
+        background-color: rgb(14, 11, 91);
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        height: 50px;
+        padding: 10px;}
+
+a{text-decoration:none;
+    font-size: 16ox;
+    font-weight: 700;
+    color: white;
+    margin: 5px;}   
+
+.all{max-width:1100px;
+     margin: 0 auto;}
+    
+.container{display: flex;
+           align-items: center;
+           height: 350px;
+           justify-content: space-between;
+           background-color: rgb(0, 0, 129);
+           color: white;
+           padding: 20px;
+           font-family: Arial, Helvetica, sans-serif;} 
+.block{display: block;
+}    
+button{border-radius:25px;
+       font-size: 16px;}
+h1,h2{padding-bottom: 5px;}
+
+.container2{background-color: rgb(35, 6, 6);
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+padding-bottom: 30px;
+}
+.personal{font-size: 24px;
+font-weight: 900;
+color: rgb(248, 248, 248);
+text-align: center;
+align-items: center;
+justify-content: center;
+background-color: rgb(35, 6, 6);
+display: flex;}
+
+.name{text-align: center;
+font-size: 27px;
+margin: 0;
+padding-top: 5px;
+}
+
+.card1,.card2, .card3, .card4{
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+    background-color: rgb(180, 0, 0);
+}
+.card1, .card3{padding-bottom: 17px;}
+.text{
+    text-align: center;
+    color: lightgray;
+    padding-top: -9px;
+    padding-bottom: 3px;
+}
+
+
+.container3{
+    background-color: rgb(0, 0, 129);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+    flex-wrap: wrap;
+    
+}
+            
+.cont3{ font-size: 36px;
+      font-weight: 300;
+    font-style: italic;
+    color: white;
+    margin: 0;
+}
+
+.self{font-weight: 900;
+      padding-left: 560px;
+      }
+
+.footer{display: flex;
+      align-items: center;
+      justify-content: center;
+       background-color:rgb(14, 11, 91) ;
+      color: white;}
